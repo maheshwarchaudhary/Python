@@ -1,0 +1,46 @@
+a = [1,2,3,4,5,6,7,8,9,10] #thid list is mutable
+b = [11,12,13,14,15]
+a.append(b) # Adding list b as an element to list a
+print(a)
+
+z = (1,2,3,4,5,6,7,8,9,10) #this tuple is immutable
+#a[10] = 11 # This will raise an error because tuples are immutable(cannot be changed after creation . it is fixed size. doesnot exchange IN tuples)
+print(z)
+
+
+a[3] = 21 # Modifying element at index 3
+print(a)
+
+
+print(a[0])  # Accessing first element
+print(a[1:5]) # Slicing from index 1 to 4
+print(a[1:5:2]) # Slicing with step (Starting from index 1 to 4 with step 2){start:stop:step}
+
+print(a[-1]) # Accessing last element
+print(a[-3:]) # Slicing last three elements
+print(len(a)) # Length of the list      
+
+a.append(11) # Adding an element
+print(a)
+a.remove(5) # Removing an element
+print(a)
+#print(a)
+print(a.count(2)) # Counting occurrences of an element
+print(a.index(3)) # Finding index of an element
+print(a.count(11))
+
+m = [1,2,3,4,5,6,7,8,9,10] #this list is mutable
+
+b = (10,20,30,40,50) #this tuple is immutable
+
+c = {100,200,300,400,500} #this set is mutable but unordered(no index) (no duplicate values allowed)(its has only unquie values)
+
+d = {"name":"Maheshwar", "age":22, "city":"Dhakdhai"} #this dictionary is mutable but unordered(no index)
+print(d["city"]) # Accessing value by key
+d["age"] = 23 # Modifying value by key  
+print(d)
+d["email"] = 'mahesh@gmail.com' # Adding new key-value pair
+del d ["age"] # Deleting key-value pair
+del m[2]
+print(m)
+print(d)
