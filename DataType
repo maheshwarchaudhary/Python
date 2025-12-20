@@ -1,0 +1,22 @@
+# String,List, Tuple, Boolean
+var3 = "Hello World"
+print(var3)
+print(type(var3))
+
+var = 23
+print(var)
+print(type(var))
+
+var2 = 5.6
+print(var2)
+print(type(var2))
+
+var4 = True
+print(var4)
+print(type(var4))
+
+
+
+a = 10
+result = a / 2
+print(result)
